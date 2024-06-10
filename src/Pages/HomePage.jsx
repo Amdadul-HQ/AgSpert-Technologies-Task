@@ -1,9 +1,14 @@
+import { Box, Text } from "@chakra-ui/react";
 
 const HomePage = () => {
     return (
-        <div>
-            
-        </div>
+        <main>
+            <Box>
+                <Text>
+                    Hello From Home
+                </Text>
+            </Box>
+        </main>
     );
 };
 
