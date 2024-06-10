@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import ContextComponent from './Context/ContextComponent'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <ContextComponent>
+      
+    </ContextComponent>
   </React.StrictMode>,
 )
