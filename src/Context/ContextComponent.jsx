@@ -13,7 +13,7 @@ export const AuthContext = createContext(null);
 
 const ContextComponent = ({ children }) => {
   const [user, setUser] = useState();
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(truegit);
 
   const googleProvider = new GoogleAuthProvider();
 
@@ -44,7 +44,7 @@ const ContextComponent = ({ children }) => {
         setLoading(false);
       } else {
         setUser(null);
-        setLoading(false);
+        setLoading(false)
       }
     });
     return () => unsubcribe();

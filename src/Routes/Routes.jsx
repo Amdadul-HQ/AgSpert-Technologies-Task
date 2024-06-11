@@ -5,6 +5,7 @@ import Main from "../Layout/Main";
 import SalesPage from "../Pages/SalesPage";
 import LogingPage from "../Pages/LogingPage";
 import SignUpPage from "../Pages/SignUpPage";
+import PrivateRouts from "./PrivateRouts";
 
 const router = createBrowserRouter([
     {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/sale',
-                element: <SalesPage/>
+                element: <PrivateRouts><SalesPage/></PrivateRouts>
             },
             {
                 path:'/login',
